@@ -5,7 +5,7 @@ module.SSID["/dev/lol"] = "4dprinter"
 module.SSID["ESP8266_OPEN"] = ""
 
 module.mqtt = {
-  host = "mqtt.devlol.org",
+  host = "192.168.8.2",
   port = 1883,
   id = "supermariocount" .. node.chipid(),
   endpoint = 'supermariocount/',
