@@ -17,7 +17,12 @@ function retrieve_last_super_mario_count()
 end
 
 function draw_display()
-    disp.draw(super_mario_count, timer_id)
+    if super_mario_count == 0 then
+        disp.flash_title(" ", 1)
+        disp.draw(" ", timer_id)
+    else
+        disp.draw(super_mario_count, timer_id)
+    end
 end
 
 function change_super_mario_count(what)
