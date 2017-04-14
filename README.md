@@ -5,12 +5,14 @@ __Replacing humans with electronics!__
 
 ## Features
 
- * Wemos D1 Mini (esp8266)
- * SSD1306 Display 128x64 I²C with yellow and yellow OLED display
- * Simple user interface with only two buttons to increment/decrement a decimal number.
- * Safe to resets (loads last total from mqtt broker)
- * Mqtt for NSA surveilance compliance
- * Open Source
+* Wemos D1 Mini (esp8266)
+* SSD1306 Display 128x64 I²C with yellow and yellow OLED display
+* Simple user interface with only two buttons to increment/decrement a decimal number.
+* Safe to resets (loads last total from mqtt broker)
+* Mqtt for NSA surveilance compliance
+* Open Source
+* Blanks screen if the count reaches 0
+
 
 ## Instructions
 
